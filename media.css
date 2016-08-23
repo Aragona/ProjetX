@@ -1,0 +1,240 @@
+body{
+  font-family: sans-serif
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+#div1{
+  background: url(Images/cosmo.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  position:absolute;
+}
+
+#div2{ /* positionnement du menu */
+  height: 3.3vw;
+  width: 100%x;
+  text-align: 50px;
+  line-height: 30vh;
+  opacity: 1; /* écriture menu transparant */
+  margin-right: 7vw;
+}
+
+#div ul{
+  float: right;
+  position: relative;
+}
+
+#div2 ul li{
+  display: inline-block;
+  list-style-type: none;
+  float: right;
+}
+
+#div2 ul li a{ /*menu : espace, sans surlignement, couleur*/
+  padding: 1.5vh;
+  text-decoration: none;
+  color: #F1BEDC;
+  display: inline;
+}
+
+#div2 ul li:hover{ /*Code couleur transition menu hover*/
+  background-color: #F1B5C5;
+  transition: all 1s;
+}
+
+#div3{
+  text-align: center;
+  margin-top: 40vh; /* position boite */
+  position: absolute;
+  width: 30vw; /* boite, (vw) largeur */
+  height: 33vh; /* boite, (vh) Hauteur */
+  color: white;
+  margin-left: 35vw;
+  margin-right: auto;
+  line-height: 3.8vw;
+  border-radius: 5px;
+  opacity: 0.8;
+  filter: alpha (opacity=80);
+}
+
+#div3 h1{
+  color: white;
+  font-weight: 400;
+}
+
+#div3 p{
+  color: white;
+}
+
+#icone{ /* positionnement du menu */
+  height: 3.3vw;
+  width: 100%x;
+  text-align: 50px;
+  line-height: 20vh;
+  opacity: 0.7; /* écriture menu transparant */
+}
+#outch-container {
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin-top: 70vh;
+  background-attachment: fixed;
+}
+
+#outch-container h1{
+  margin-top: 5vh;
+  text-align: center;
+  color: #8A8A8A;
+  font-size: 7vh;
+}
+
+#Outch{
+  margin-top: 20.5vh;
+  margin-left: 3.5vw;
+}
+
+#Outch li {
+  display: inline-block;
+}
+
+#separation1{
+  background: url(Images/avion.png) no-repeat center ;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 50vh;
+  position:absolute;
+}
+
+#separation1-container {
+  position: absolute;
+  margin-top: 100vh;
+  height: 100vh;
+  width: 100%;
+}
+
+#h1s1{
+  margin-top: 20vh;
+  text-align: center;
+  margin-left: 40vw;
+  color: #FEDEFB;
+  font-size: 7vh;
+  position: absolute;
+}
+
+#para1{
+  background: url(Images/max.jpg) no-repeat center ;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  position:absolute;
+}
+
+#para1-container {
+  position: absolute;
+  margin-top: 150vh;
+  height: 100vh;
+  width: 100%;
+}
+
+#box1{
+  color:black;
+  width: 45vw;
+  height: 70vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  margin-top: 15vh;
+  margin-left: 50vw;
+  border: 3px solid #681635;
+  text-align: center;
+  background: #94234E;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+#separation2{
+  background: url(Images/ocan.jpg) no-repeat center ;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 50vh;
+  position:absolute;
+}
+
+#separation2-container {
+  position: absolute;
+  margin-top: 250vh;
+  height: 100vh;
+  width: 100%;
+}
+
+#box2{
+  color:black;
+  width: 45vw;
+  height: 70vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  margin-top: 15vh;
+  margin-left: 3vw;
+  border: 3px solid #163168;
+  text-align: center;
+  background: #347FA0;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+#h1s2{
+  margin-top: 20vh;
+  text-align: center;
+  margin-left: 40vw;
+  color: #467DAD;
+  font-size: 7vh;
+  position: absolute;
+}
+
+#para2{
+  background: url(Images/profond.png) no-repeat center ;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 102vh;
+  position:absolute;
+}
+
+#para2-container {
+  position: absolute;
+  margin-top: 300vh;
+  height: 100vh;
+  width: 100%;
+}
+
+#separation3{
+  background: url(Images/mounmoon.png) no-repeat center ;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 20vh;
+  position:absolute;
+}
+
+#separation3-container {
+  position: absolute;
+  margin-top: 402vh;
+  width: 100%;
